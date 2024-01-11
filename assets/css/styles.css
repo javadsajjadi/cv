@@ -348,7 +348,7 @@ img{
 }
 
 .home__address{
-  gap: 1rem;
+  gap: .3rem;
 
 }
 
@@ -381,7 +381,7 @@ img{
 /*========== SOCIAL ==========*/
 .social__container{
   grid-template-columns: max-content;
-  gap: 1rem;
+  gap: .3rem;
 }
 
 .social__link{
