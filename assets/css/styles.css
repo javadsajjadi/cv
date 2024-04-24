@@ -9,6 +9,7 @@
   --title-color: #0B0A0A;
   --text-color: #403A3A;
   --text-color-light: #e3e3e3;
+  --text-color-light1: #868686;
   --container-color: #FAFAFA;
   --container-color-alt: #F0EFEF;
   --body-color: #FCFCFC;
@@ -481,7 +482,7 @@ img{
   gap: .25rem;
 }
 .references__subtitle{
-  color: var(--text-color-light);
+  color: var(--text-color-light1);
 }
 .references__subtitle,
 .references__contact{
@@ -505,7 +506,7 @@ img{
 
 .interests__icon{
   font-size: 1.5rem;
-  color: var(--text-color-light);
+  color: var(--text-color-light1);
   margin-bottom: .25rem;
 }
 /* Scroll top */
