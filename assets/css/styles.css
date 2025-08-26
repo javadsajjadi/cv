@@ -294,7 +294,7 @@ img{
   display: flex;
   flex-direction: column;
   font-size:var(--smaller-font-size);
-  color: #5a78f1;
+  color: #696969;
   font-weight: var(--font-medium);
 }
 
