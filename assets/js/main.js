@@ -100,9 +100,9 @@ let resumeButton = document.getElementById('resume-button')
 
 let opt = {
   margin:       0,
-  filename:     'myResume.pdf',
+  filename:     'javadsajjadi.pdf',
   image:        { type: 'jpeg', quality: 0.98 },
-  html2canvas:  { scale: 4 },
+  html2canvas:  { scale: 6 },
   jsPDF:        { format: 'a4', orientation: 'portrait' }
 };
 // Function to call areaCv and Html2Pdf options 
@@ -122,4 +122,5 @@ resumeButton.addEventListener('click', () =>{
 
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
     setTimeout(removeScale, 5000)
+
 })
